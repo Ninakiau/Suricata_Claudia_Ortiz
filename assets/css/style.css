@@ -1,0 +1,58 @@
+body{
+    background-color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.container-fluid{
+    background-color: #E83E8C;
+    height: 75px;
+
+}
+.navbar-expand-lg.bg-body-tertiary .navbar-collapse {
+    background-color: #E83E8C;
+}
+.navbar-toggler, .navbar-toggler-icon{
+    border-color: #ffffff; 
+}
+/* Establecer el color de las tres líneas del toggler */
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='%23ffffff' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    
+}
+.navbar-brand{ 
+    background-color: #E83E8C;
+}
+
+#navbarNav{
+    justify-content: flex-end;
+}
+.nav-item a{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+h1{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight:bolder;
+    margin-right: 60px;
+}
+#pago {
+    background-color: #17A2B8;
+    height: 170px;
+}
+
+.icon i{
+    font-size: 50px;
+    color: #ffffff;
+    padding: 10px;
+}
+#suricata-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E83E8C;
+    height: 184px;
+}
